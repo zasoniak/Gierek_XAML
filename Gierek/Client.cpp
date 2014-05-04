@@ -2,6 +2,6 @@
 #include "Client.h"
 
 
-CClient::CClient()
+Client::Client()
 {
 }

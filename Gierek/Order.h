@@ -1,7 +1,14 @@
 #pragma once
-ref class COrder sealed
+#include "CoalTypeA.h"
+#include "CoalTypeB.h"
+class Order
 {
 public:
-	COrder();
+	CoalTypeA *coalA;
+	CoalTypeB *coalB;
+
+public:
+	Order();
+	Order(CoalTypeA *coalA, CoalTypeB *coalB);
 };
 

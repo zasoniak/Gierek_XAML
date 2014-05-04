@@ -2,6 +2,6 @@
 #include "HeatingPlant.h"
 
 
-CHeatingPlant::CHeatingPlant()
+HeatingPlant::HeatingPlant()
 {
 }

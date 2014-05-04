@@ -2,6 +2,6 @@
 #include "AI.h"
 
 
-CAI::CAI()
+AI::AI()
 {
 }

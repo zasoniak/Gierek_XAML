@@ -1,7 +1,12 @@
 #pragma once
-ref class CClient sealed
+#include "Order.h"
+class Client
 {
 public:
-	CClient();
+	std::string name;
+	Order *avarageOrder;
+public:
+	Client();
+	Order MakeOrder();
 };
 

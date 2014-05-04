@@ -117,6 +117,15 @@
     <ClCompile Include="Storehouse.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Coal.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CoalTypeA.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CoalTypeB.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -161,6 +170,15 @@
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Storehouse.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Coal.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoalTypeA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoalTypeB.h">
       <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>

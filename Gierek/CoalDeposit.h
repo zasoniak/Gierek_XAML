@@ -1,9 +1,9 @@
 #pragma once
 #include "Client.h"
-ref class CCoalDeposit sealed :
-public CClient
+class CoalDeposit: public Client
 {
 public:
-	CCoalDeposit();
+	CoalDeposit();
+	Order MakeOrder();
 };
 

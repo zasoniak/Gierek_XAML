@@ -133,7 +133,10 @@
   <ItemGroup>
     <ClInclude Include="AI.h" />
     <ClInclude Include="Client.h" />
+    <ClInclude Include="Coal.h" />
     <ClInclude Include="CoalDeposit.h" />
+    <ClInclude Include="CoalTypeA.h" />
+    <ClInclude Include="CoalTypeB.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="HeatingPlant.h" />
     <ClInclude Include="Ironworks.h" />
@@ -201,7 +204,10 @@
       <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Coal.cpp" />
     <ClCompile Include="CoalDeposit.cpp" />
+    <ClCompile Include="CoalTypeA.cpp" />
+    <ClCompile Include="CoalTypeB.cpp" />
     <ClCompile Include="Common\NavigationHelper.cpp" />
     <ClCompile Include="Common\RelayCommand.cpp" />
     <ClCompile Include="Common\SuspensionManager.cpp" />

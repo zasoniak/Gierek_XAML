@@ -13,3 +13,8 @@
 #include "Common\SuspensionManager.h"
 #include "DataModel\SampleDataSource.h"
 #include "App.xaml.h"
+
+
+#include <vector>
+#include <time.h>
+#include <random>

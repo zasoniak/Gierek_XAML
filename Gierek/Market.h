@@ -1,7 +1,13 @@
 #pragma once
-ref class CMarket sealed
+#include "Order.h"
+class Market
 {
 public:
-	CMarket();
+	std::vector<Order> orderList;
+	std::vector<Order> offerList;
+public:
+	Market();
+	void AddOrder(Order *newOrder);
+	Order AccomplishTransaction(Order *offer);
 };
 

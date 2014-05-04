@@ -1,7 +1,7 @@
 #pragma once
-ref class CAI sealed
+class AI
 {
 public:
-	CAI();
+	AI();
 };
 

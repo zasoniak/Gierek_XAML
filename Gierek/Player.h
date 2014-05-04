@@ -1,7 +1,13 @@
 #pragma once
-ref class CPlayer sealed
+#include "Mine.h"
+class Player
 {
 public:
-	CPlayer();
+	std::string name;
+	double score;
+	Mine *mine;
+public:
+	Player();
+
 };
 

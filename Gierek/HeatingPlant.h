@@ -1,9 +1,8 @@
 #pragma once
 #include "Client.h"
-ref class CHeatingPlant sealed :
-public CClient
+class HeatingPlant: Client
 {
 public:
-	CHeatingPlant();
+	HeatingPlant();
 };
 

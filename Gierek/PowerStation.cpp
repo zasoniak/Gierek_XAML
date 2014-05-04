@@ -2,6 +2,6 @@
 #include "PowerStation.h"
 
 
-CPowerStation::CPowerStation()
+PowerStation::PowerStation()
 {
 }

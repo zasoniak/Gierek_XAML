@@ -2,6 +2,12 @@
 #include "CoalDeposit.h"
 
 
-CCoalDeposit::CCoalDeposit()
+CoalDeposit::CoalDeposit()
 {
+}
+
+Order CoalDeposit::MakeOrder()
+{
+	Order *newOrder = new Order;
+	return *newOrder;
 }
