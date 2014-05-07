@@ -2,14 +2,12 @@
 #include "CoalTypeB.h"
 
 
-CoalTypeB::CoalTypeB()
+CoalTypeB::CoalTypeB() :Coal()
 {
-	this->amount = 0;
-	this->price = 0;
+
 }
 
-CoalTypeB::CoalTypeB(double amount, double price)
+CoalTypeB::CoalTypeB(double _amount, double _price) :Coal(_amount, _price)
 {
-	this->amount = amount;
-	this->price = price;
+
 }

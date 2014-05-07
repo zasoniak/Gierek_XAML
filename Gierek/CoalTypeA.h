@@ -4,6 +4,6 @@ class CoalTypeA: public Coal
 {
 public:
 	CoalTypeA();
-	CoalTypeA(double amount, double price);
+	CoalTypeA(double _amount, double _price);
 };
 

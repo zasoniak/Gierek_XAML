@@ -2,7 +2,7 @@
 #include "Order.h"
 class Client
 {
-public:
+protected:
 	std::string name;
 	Order *avarageOrder;
 public:

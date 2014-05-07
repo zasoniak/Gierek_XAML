@@ -4,7 +4,7 @@
 #include "Storehouse.h"
 class Mine
 {
-public:
+private:
 	std::string name;
 	double salary;
 	double budget;
@@ -26,6 +26,11 @@ public:
 	CoalTypeA CalculateExtraction(CoalTypeA *coal);
 	CoalTypeB CalculateExtraction(CoalTypeB *coal);
 
+	double GetBudget();
+	std::string GetName();
+
+	double GetSalary();
+	void SetSalary(double _salary);
 
 };
 

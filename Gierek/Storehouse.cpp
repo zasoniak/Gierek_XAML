@@ -14,8 +14,8 @@ Storehouse::Storehouse()
 double Storehouse::GetStorageCost()
 {
 	double amount = 0;
-	amount += coalA->amount;
-	amount += coalB->amount;
+	amount += coalA->GetAmount();
+	amount += coalB->GetAmount();
 	return cost*amount;
 }
 
@@ -24,7 +24,7 @@ bool Storehouse::ExtendStorage(CoalTypeA const *coalA, double budget)
 	if (budget > 10000)
 	{
 		budget -= 10000;
-		storageA->amount += 10000;
+		storageA->SetAmount(storageA->GetAmount()+10000);
 		return true;
 	}
 	else
@@ -36,7 +36,7 @@ bool Storehouse::ExtendStorage(CoalTypeB const *coalB, double budget)
 	if (budget > 10000)
 	{
 		budget -= 10000;
-		storageB->amount += 10000;
+		storageB->SetAmount(storageB->GetAmount() + 10000);
 		return true;
 	}
 	else
